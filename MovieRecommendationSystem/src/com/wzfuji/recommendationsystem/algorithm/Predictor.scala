@@ -1,6 +1,5 @@
-package com.wzfuji.recommendationsystem.algorithm.CB
-
-import com.wzfuji.recommendationsystem.instance.RSInstance;
-trait Predictor {
-	def predict(instance:RSIntance):PredictionResult
+package com.wzfuji.recommendationsystem.algorithm
+import com.wzfuji.recommendationsystem.instance.RSInstance
+abstract class Predictor {
+	def predict(userId:Int,itemId:Int):PredictionResult
 }

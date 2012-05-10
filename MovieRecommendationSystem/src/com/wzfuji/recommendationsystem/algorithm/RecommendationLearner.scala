@@ -1,8 +1,6 @@
-package com.wzfuji.recommendationsystem.algorithm.CB
+package com.wzfuji.recommendationsystem.algorithm
 
-import scala.collection.immutable.List
 import com.wzfuji.recommendationsystem.instance.RSInstance
-
-trait RecommendationLearner {
+abstract class RecommendationLearner {
 	def learn(instances:List[RSInstance]):Predictor
 }
