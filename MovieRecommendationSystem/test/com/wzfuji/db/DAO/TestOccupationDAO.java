@@ -1,7 +1,5 @@
 package com.wzfuji.db.DAO;
 
-import static org.junit.Assert.*;
-
 import org.junit.Test;
 
 import com.wzfuji.db.DAO.OccupationHome;

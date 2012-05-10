@@ -3,8 +3,6 @@ package com.wzfuji.db.DAO;
 // Generated May 9, 2012 3:14:10 PM by Hibernate Tools 3.4.0.CR1
 
 import javax.ejb.Stateless;
-import javax.persistence.EntityManager;
-import javax.persistence.PersistenceContext;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 

@@ -40,6 +40,7 @@ public class RatingId implements java.io.Serializable {
 		this.itemid = itemid;
 	}
 
+	@Override
 	public boolean equals(Object other) {
 		if ((this == other))
 			return true;
@@ -53,6 +54,7 @@ public class RatingId implements java.io.Serializable {
 				&& (this.getItemid() == castOther.getItemid());
 	}
 
+	@Override
 	public int hashCode() {
 		int result = 17;
 
