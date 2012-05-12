@@ -1,5 +1,0 @@
-package tutorial
-
-class Mainw {
-
-}
